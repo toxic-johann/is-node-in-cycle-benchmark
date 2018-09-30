@@ -4,7 +4,8 @@
   "description": "A benchmark on graphlib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./ --fix"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/toxic-johann/is-node-in-cycle-benchmark/issues"
   },
-  "homepage": "https://github.com/toxic-johann/is-node-in-cycle-benchmark#readme"
+  "homepage": "https://github.com/toxic-johann/is-node-in-cycle-benchmark#readme",
+  "dependencies": {
+    "@dagrejs/graphlib": "^2.1.4",
+    "beautify-benchmark": "^0.2.4",
+    "benchmark": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-egg": "^7.1.0"
+  }
 }
