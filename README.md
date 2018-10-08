@@ -1,2 +1,15 @@
 # is-node-in-cycle-benchmark
-A benchmark test on graphlib. Just to show the quickest way to detect if a node is in cycle
+测试在 graphlib 如何快速判断一个节点是否在环中。
+
+提供如下几种算法：
+
+1. 查找所有环并判断节点是否在环中（较低效）
+2. 对单个节点进行深度搜索
+3. 对单个节点进行深度搜索并排除边缘节点
+4. 对单个节点进行深度搜索，排除边缘节点，并进行适度缓存
+
+
+
+效果如下：
+
+![image-20181008193559929](https://ws3.sinaimg.cn/large/006tNbRwgy1fw11pldvzjj30vu09a770.jpg)
