@@ -3,6 +3,6 @@
     "eslint-config-egg"
   ],
   "rules": {
-      "strict": false
+      "strict": 0
   }
 }
