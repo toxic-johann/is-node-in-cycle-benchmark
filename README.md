@@ -1,4 +1,7 @@
 # is-node-in-cycle-benchmark
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/toxic-johann/is-node-in-cycle-benchmark.svg)](https://greenkeeper.io/)
+
 测试在 graphlib 如何快速判断一个节点是否在环中。
 
 提供如下几种算法：
