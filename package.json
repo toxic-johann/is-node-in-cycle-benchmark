@@ -19,11 +19,13 @@
   "homepage": "https://github.com/toxic-johann/is-node-in-cycle-benchmark#readme",
   "dependencies": {
     "@dagrejs/graphlib": "^2.1.4",
+    "asciichart": "^1.5.7",
     "beautify-benchmark": "^0.2.4",
     "benchmark": "^2.1.4"
   },
   "devDependencies": {
-    "eslint": "^5.6.1",
+    "babar": "^0.2.0",
+    "eslint": "^5.14.1",
     "eslint-config-egg": "^7.1.0"
   }
 }
